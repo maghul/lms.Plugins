@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<extensions>
+<details>
+<title lang="EN">Magnus Hulthéns&#39; Logitech Media Server extensions (TEST collection)</title>
+</details>
+<plugins>
+<plugin name="AirPlay" version="0.3.0" minTarget="7.3" maxTarget="7.*">
+<title lang="EN">AirPlay</title>
+<desc lang="EN">AirPlay is a plugin that makes your Squeezebox an AirPlay player. It will receive audio, coverart and metadata. The AirPlay source, ie iPhone or iPad, is controlled by DACP which is somewhat limited to pause/play/forward/backward. Volume control for the Squeezebox is also implemented in two ways. If the volume control is in normal (absolute) mode, the volume will be controlled directly by the volume bar on the iPhone. If the squeezebox uses the IR-Blasgter plugin which only supports up/down volume of an amplifier (relative mode), the volume bar will act as an retention lever. If you drag it up it will increase the volume in increments and the spring back to center, likewise if you drag it down. NOTE: Only the x86_64 binary has been tested so far.</desc>
+<url>https://raw.githubusercontent.com/maghul/lms.Plugins/master/AirPlay_0.3.0.zip</url>
+<sha>84afac76b90069fdebfcd8c4877863b9c6c5ee51</sha>
+<creator>maghul</creator>
+<email></email>
+</plugin>
+</plugins>
+</extensions>
